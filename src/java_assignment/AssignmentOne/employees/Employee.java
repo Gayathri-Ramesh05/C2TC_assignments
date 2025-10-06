@@ -2,9 +2,41 @@ package java_assignment.AssignmentOne.employees;
 
 public class Employee {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	 private String name;
+	    private int employeeId;
+	    private double salary;
 
-	}
+	    /**
+	     * Constructor to initialize employee details.
+	     */
+	    public Employee(String name, int employeeId, double salary) {
+	        this.name = name;
+	        this.employeeId = employeeId;
+	        this.salary = salary;
+	    }
 
+	    // Getters and Setters
+	    public String getName() {
+	        return name;
+	    }
+
+	    protected void setName(String name) {
+	        this.name = name;
+	    }
+
+	    public int getEmployeeId() {
+	        return employeeId;
+	    }
+
+	    protected void setEmployeeId(int employeeId) {
+	        this.employeeId = employeeId;
+	    }
+
+	    public double getSalary() {
+	        return salary;
+	    }
+
+	    public void setSalary(double salary) {
+	        this.salary = salary;
+	    }
 }
