@@ -4,7 +4,7 @@ public class Manager {
 	 private String department;
 
 	    public Manager(String name, int employeeId, double salary, String department) {
-	        super(name, employeeId, salary);
+	        super();
 	        this.department = department;
 	    }
 
